@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/study
+  mail:
+    host: smtp.163.com
+    username: 13421048468@163.com
+    password: PTWNJDNLJNAMNPGZ
+  data:
+    redis:
+      database: 0
+      host: localhost
+      port: 6379
